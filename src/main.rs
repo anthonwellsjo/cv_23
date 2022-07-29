@@ -1,3 +1,7 @@
+pub mod components;
+pub mod app;
+
+
 fn main() {
-    println!("Hello, world!");
+    dioxus::web::launch(app::app)
 }
